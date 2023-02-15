@@ -1,0 +1,227 @@
+.ellipse1{
+    max-width: 100%;
+    position: absolute;
+    left: 36px;
+    top: 231px;
+}
+.ellipse2a{
+    max-width: 100%;
+    position: absolute;
+    left: 1025px;
+    top: 126px;
+}
+.ellipse2b{
+    position: absolute;
+    left: 138px;
+    top: 1124px;
+}
+.ellipse4{
+    position: absolute;
+    right: 0;
+    top: 382px;
+}
+.yellowstar1a{
+    position: absolute;
+    left: 462px;
+    top: 216px;
+}
+.yellowstar1b{
+    position: absolute;
+    left: 1159px;
+    top: 314px;
+}
+.yellowstar1c{
+    position: absolute;
+    left: 415px;
+    top: 1288px;
+}
+.yellowstar2a{
+    position: absolute;
+    left: 157px;
+    top: 873px;
+} 
+.yellowstar2b{
+    position: absolute;
+    right: 161px;
+    top: 799px;
+}
+.yellowstar2c{
+    position: absolute;
+    left: 595px;
+    top: 1779px;
+}
+.yellowstar2d{
+    position: absolute;
+    right: 123px;
+    top: 2084px;
+}
+.bluestara{
+    position: absolute;
+    top: 1162px;
+    left: 586.25px;
+}
+.bluestarb{
+    position: absolute;
+    top: 1093px;
+    right: 152.5px;
+}
+.arrow{
+    position: absolute;
+    top: 575.23px;
+    right: 311.52px;
+    display: block;
+}
+@media screen and (max-width: 1280px) {
+    .ellipse1{
+        left: 36px;
+        top: 231px;
+    }
+    .ellipse2a{
+        left: 1025px;
+        top: 126px;
+    }
+    .ellipse2b{
+        left: 138px;
+        top: 1124px;
+    }
+    .ellipse4{
+        right: 0;
+        top: 482px;
+    }
+    .yellowstar1a{
+        left: 462px;
+        top: 216px;
+    }
+    .yellowstar1b{
+        left: 1159px;
+        top: 314px;
+    }
+    .yellowstar1c{
+        left: 415px;
+        top: 1288px;
+    }
+    .yellowstar2a{
+        left: 157px;
+        top: 873px;
+    } 
+    .yellowstar2b{
+        right: 161px;
+        top: 899px;
+    }
+    .yellowstar2c{
+        left: 545px;
+        top: 1779px;
+    }
+    .yellowstar2d{
+        right: 123px;
+        top: 2184px;
+    }
+    .bluestara{
+        top: 1162px;
+        left: 586.25px;
+    }
+    .bluestarb{
+        top: 1093px;
+        right: 152.5px;
+    }
+    .arrow{
+        top: 675.23px;
+        right: 311.52px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .ellipse1{
+        left: 0px;
+        top: 131px;
+    }
+    .ellipse2a{
+        display: none;
+    }
+    .ellipse2b{
+        left: 138px;
+        top: 1124px;
+    }
+    .ellipse4{
+        display: 'none'
+    }
+    .yellowstar1a{
+        left: 462px;
+        top: 216px;
+    }
+    .yellowstar1b{
+        display: none;
+    }
+    .yellowstar1c{
+        left: 415px;
+        top: 1288px;
+    }
+    .yellowstar2a{
+        left: 157px;
+        top: 873px;
+    } 
+    .yellowstar2b{
+        right: 161px;
+        top: 899px;
+    }
+    .yellowstar2c{
+        display: none;
+    }
+    .yellowstar2d{
+        right: 123px;
+        top: 2084px;
+    }
+    .bluestara{
+        display: none;
+    }
+    .bluestarb{
+        top: 1093px;
+        right: 152.5px;
+    }
+    .arrow{
+        display: none;
+    }
+}
+@media screen and (max-width: 899px) {
+    .ellipse1{
+        display: none;
+    }
+    .ellipse2a{
+        display: none;
+    }
+    .ellipse2b{
+        display: none;
+    }
+    .ellipse4{
+        display: none;
+    }
+    .yellowstar1a{
+        display: none;
+    }
+    .yellowstar1b{
+        display: none;
+    }
+    .yellowstar1c{
+        display: none;
+    }
+    .yellowstar2a{
+        display: none;
+    } 
+    .yellowstar2b{
+        display: none;
+    }
+    .yellowstar2c{
+        display: none;
+    }
+    .yellowstar2d{
+        display: none;
+    }
+    .bluestara{
+        display: none;
+    }
+    .bluestarb{
+        display: none;
+    }
+    .arrow{
+        display: none;
+    }
+}
