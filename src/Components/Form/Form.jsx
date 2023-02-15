@@ -110,7 +110,7 @@ const Form = ({ clickOpen }) => {
               fullWidth
               variant="outlined"
               sx={{
-                marginBottom: "32px",
+                marginBottom: "32px", 
                 "& .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input": {
                   color: "white",
                   border: "1px solid white",
