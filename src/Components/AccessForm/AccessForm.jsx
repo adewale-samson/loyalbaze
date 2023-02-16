@@ -107,7 +107,7 @@ const AccessForm = ({ open, clickOpen }) => {
                 borderRadius: "100px",
                 width: "100%",
                 color: "#fff",
-                textTransform: "capitalize",
+                textTransform: "none",
                 fontFamily: "Satoshi, sans-serif",
               }}
             >

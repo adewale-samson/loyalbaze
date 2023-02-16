@@ -1,9 +1,5 @@
-
 import Avatar from "@mui/material/Avatar";
-import AvatarGroup from "@mui/material/AvatarGroup";
 import { Box } from "@mui/material";
-
-
 
 
 export default function TotalAvatars() {
@@ -18,22 +14,9 @@ export default function TotalAvatars() {
           md: "25px auto 334px auto",
           lg: "25px auto 334px auto",
         },
-        "& .MuiAvatarGroup-root": { width: "200px", margin: "0 auto" },
+        "& .MuiAvatarGroup-root": { width: "180px", margin: "0 auto" },
       }}
     >
-      <AvatarGroup
-        total={61}
-        sx={{
-          fontSize: "16px",
-          "& .css-sxh3gq-MuiAvatar-root-MuiAvatarGroup-avatar": {
-            border: "none !important",
-            marginLeft: "20px",
-            background: "inherit",
-            borderRadius: "0",
-            fontFamily: "inherit",
-          },
-        }}
-      >
         <Avatar
           alt="Gemy Sharp"
           src="/static/images/avatar/1.jpg"
@@ -43,6 +26,10 @@ export default function TotalAvatars() {
             width: "32px",
             height: "32px",
             padding: "2px",
+            fontFamily: 'Satoshi, sans-serif',
+            fontSize: '16px',
+            fontWeight: '700',
+            zIndex: '100'
           }}
         />
         <Avatar
@@ -54,6 +41,11 @@ export default function TotalAvatars() {
             width: "32px",
             height: "32px",
             padding: "2px",
+            fontFamily: 'Satoshi, sans-serif',
+            fontSize: '16px',
+            fontWeight: '700',
+            marginLeft: '-6px',
+            zIndex: '90'
           }}
         />
         <Avatar
@@ -65,6 +57,11 @@ export default function TotalAvatars() {
             width: "32px",
             height: "32px",
             padding: "2px",
+            fontFamily: 'Satoshi, sans-serif',
+            fontSize: '16px',
+            fontWeight: '700',
+            marginLeft: '-6px',
+            zIndex: '80'
           }}
         />
         <Avatar
@@ -76,9 +73,26 @@ export default function TotalAvatars() {
             width: "32px",
             height: "32px",
             padding: "2px",
+            fontFamily: 'Satoshi, sans-serif',
+            fontSize: '16px',
+            fontWeight: '700',
+            marginLeft: '-6px',
+            zIndex: '70'
           }}
         />
-      </AvatarGroup>
+        <Avatar
+          alt="+57 Joined"
+          src="/static/images/avatar/5.jpg"
+          sx={{
+            background: 'inherit',
+            fontFamily: 'Satoshi, sans-serif',
+            fontSize: '16px',
+            fontWeight: '700',
+            width: "102px",
+            padding: "2px",
+            textAlign: 'center',
+          }}
+        >+57 Joined</Avatar>
     </Box>
   );
 }

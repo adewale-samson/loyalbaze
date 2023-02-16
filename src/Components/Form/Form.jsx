@@ -192,7 +192,7 @@ const Form = ({ clickOpen }) => {
                     marginBottom: "32px",
                     fontWeight: "400",
                     fontSize: "16px",
-                    fontFamily: "sans-serif",
+                    fontFamily: "Satoshi, sans-serif",
                   }}
                 >
                   <MenuItem value="Select Country">Select country</MenuItem>
@@ -240,9 +240,12 @@ const Form = ({ clickOpen }) => {
                   width: "100%",
                   color: "#fff",
                   textTransform: "capitalize",
+                  fontFamily: 'Satoshi, sans-serif',
+                  fontSize: '16px',
+                  fontWeight: '700'
                 }}
               >
-                Get early access
+                Send Request
               </Button>
             </Box>
           </Box>
